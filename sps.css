@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  background-color: #0c065b;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.choice {
+  height: 165px;
+  width: 165px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.win-msg {
+  background-color: black;
+  color: aqua;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 2rem;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #020114;
+  align-items: center;
+}
+
+.reset {
+  display: inline-block;
+  background-color: cyan;
+  color: black;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: hsl(180, 100%, 25%);
+}
+
+.scores {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  gap : 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
